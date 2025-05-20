@@ -140,7 +140,7 @@ const Index = () => {
 
   {/*popular flavour section */}
   <section id='popular'>
-    <h3 className='section-header'>Popular Scoop Flavours</h3>
+    <h3 className='section-header pt-3'>Popular Scoop Flavours</h3>
     <Swiper className='mt-20 w-full'
 
     slidesPerView={3}
@@ -158,11 +158,11 @@ const Index = () => {
     }}
     >
       <SwiperSlide>
-        <div className='flex justify-center'>
-        <div className='relative '> 
+        <div className='relative'>
+        <div className='w-full'> 
           <img src={slideImage06} alt="slide-image" className='w-full'/> 
 
-          <div className='absolute top-2 right-2 flex flex-col gap-2 hidden'>        
+          <div className='absolute top-5 flex flex-col right-5 gap-2'>        
             <i className='ri-heart-line icon-card'></i>
             <i className='ri-shuffle-line icon-card'></i>
             <i className='ri-eye-line icon-card'></i>
@@ -170,14 +170,14 @@ const Index = () => {
 
         </div>
         <div className='flex flex-col items-center gap-2'>
-          <div className=''>
+          <div className='absolute'>
             <i className='ri-star-fill'></i>
             <i className='ri-star-fill'></i>
             <i className='ri-star-fill'></i>
             <i className='ri-star-line'></i>
             <i className='ri-star-line'></i>
           </div>
-          <h2 className='text-lg font-bold text-rose-400 text-center'>Chocolate Fudge Browning</h2>
+          <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
           <span>$7.50</span>
 
         </div>
