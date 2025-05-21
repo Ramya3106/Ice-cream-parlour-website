@@ -17,6 +17,11 @@ import slideImage06 from './../../assets/decorate5.png'
 import slideImage07 from './../../assets/decorate6.png'
 import slideImage08 from './../../assets/decorate7.png'
 import slideImage09 from './../../assets/decorate8.png'
+import Avtar01 from './../../assets/Avatar1.png'
+import Avtar02 from './../../assets/Avatar2.png'
+import Avtar03 from './../../assets/Avatar3.png'
+import Avtar04 from './../../assets/Avatar4.png'
+
 
 const Index = () => {
   return (
@@ -284,7 +289,57 @@ const Index = () => {
     <h3 className='section-header'>Eat Ice Cream, Be Happy !</h3>
 
     {/*Grid Wrapper */}
-    <div className='grid grid-cols-4 gap-10'>
+    <div className='grid grid-cols-4 gap-6 px-4'>
+      {/*Grid-Card */}
+      <div className='w-full flex flex-col gap-2 relative card'>
+        {/*Grid-image */}
+      <div className='w-full'>
+        <img src={slideImage06} alt="slide-image"  />
+        <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
+          <i className='ri-heart-line icon-card'></i>
+          <i className='ri-shuffle-line icon-card'></i>
+          <i className='ri-eye-line icon-card'></i>
+        </div>
+      </div>
+      {/*Grid-Content */}
+      <div className='flex flex-col items-center gap-2'>
+      <div className='absolute'>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-line'></i>
+          </div>
+          <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
+          <span>$7.50</span>
+      </div>
+      </div> 
+
+       {/*Grid-Card */}
+      <div className='w-full flex flex-col gap-2 relative card'>
+        {/*Grid-image */}
+      <div className='w-full'>
+        <img src={slideImage06} alt="slide-image"  />
+        <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
+          <i className='ri-heart-line icon-card'></i>
+          <i className='ri-shuffle-line icon-card'></i>
+          <i className='ri-eye-line icon-card'></i>
+        </div>
+      </div>
+      {/*Grid-Content */}
+      <div className='flex flex-col items-center gap-2'>
+      <div className='absolute'>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-line'></i>
+          </div>
+          <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
+          <span>$7.50</span>
+      </div> 
+      </div>  
+
       {/*Grid-Card */}
       <div className='w-full flex flex-col gap-2 relative card'>
         {/*Grid-image */}
@@ -308,70 +363,11 @@ const Index = () => {
           <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
           <span>$7.50</span>
       </div> 
+      </div>  
 
-      <div className='w-full'>
-        <img src={slideImage07} alt="slide-image"  />
-        <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
-          <i className='ri-heart-line icon-card'></i>
-          <i className='ri-shuffle-line icon-card'></i>
-          <i className='ri-eye-line icon-card'></i>
-        </div>
-      </div>
-      {/*Grid-Content */}
-      <div className='flex flex-col items-center gap-2'>
-      <div className='absolute'>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-line'></i>
-          </div>
-          <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
-          <span>$7.50</span>
-      </div>
-
-      <div className='w-full'>
-        <img src={slideImage08} alt="slide-image"  />
-        <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
-          <i className='ri-heart-line icon-card'></i>
-          <i className='ri-shuffle-line icon-card'></i>
-          <i className='ri-eye-line icon-card'></i>
-        </div>
-      </div>
-      {/*Grid-Content */}
-      <div className='flex flex-col items-center gap-2'>
-      <div className='absolute'>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-line'></i>
-          </div>
-          <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
-          <span>$7.50</span>
-      </div>
-
-      <div className='w-full'>
-        <img src={slideImage09} alt="slide-image"  />
-        <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
-          <i className='ri-heart-line icon-card'></i>
-          <i className='ri-shuffle-line icon-card'></i>
-          <i className='ri-eye-line icon-card'></i>
-        </div>
-      </div>
-      {/*Grid-Content */}
-      <div className='flex flex-col items-center gap-2'>
-      <div className='absolute'>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-fill'></i>
-            <i className='ri-star-line'></i>
-          </div>
-          <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
-          <span>$7.50</span>
-      </div>
-
+      {/*Grid-Card */}
+      <div className='w-full flex flex-col gap-2 relative card'>
+        {/*Grid-image */}
       <div className='w-full'>
         <img src={slideImage06} alt="slide-image"  />
         <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
@@ -392,7 +388,11 @@ const Index = () => {
           <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
           <span>$7.50</span>
       </div> 
+      </div>  
 
+      {/*Grid-Card */}
+      <div className='w-full flex flex-col gap-2 relative card'>
+        {/*Grid-image */}
       <div className='w-full'>
         <img src={slideImage06} alt="slide-image"  />
         <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
@@ -413,7 +413,11 @@ const Index = () => {
           <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
           <span>$7.50</span>
       </div> 
+      </div> 
 
+      {/*Grid-Card */} 
+      <div className='w-full flex flex-col gap-2 relative card'>
+        {/*Grid-image */}
       <div className='w-full'>
         <img src={slideImage06} alt="slide-image"  />
         <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
@@ -434,7 +438,11 @@ const Index = () => {
           <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
           <span>$7.50</span>
       </div> 
+      </div> 
 
+      {/*Grid-Card */} 
+      <div className='w-full flex flex-col gap-2 relative card'>
+        {/*Grid-image */}
       <div className='w-full'>
         <img src={slideImage06} alt="slide-image"  />
         <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
@@ -455,11 +463,192 @@ const Index = () => {
           <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
           <span>$7.50</span>
       </div> 
+      </div>  
 
+      {/*Grid-Card */}
+      <div className='w-full flex flex-col gap-2 relative card'>
+      {/*Grid-image */}
+      <div className='w-full'>
+        <img src={slideImage06} alt="slide-image"  />
+        <div className='absolute top-5 flex flex-col right-5 gap-2 hidden'>
+          <i className='ri-heart-line icon-card'></i>
+          <i className='ri-shuffle-line icon-card'></i>
+          <i className='ri-eye-line icon-card'></i>
+        </div>
       </div>
-      
+      {/*Grid-Content */}
+      <div className='flex flex-col items-center gap-2'>
+      <div className='absolute'>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-fill'></i>
+            <i className='ri-star-line'></i>
+          </div>
+          <h2 className='text-lg font-bold text-rose-400 text-center pt-7'>Chocolate Fudge Browning</h2>
+          <span>$7.50</span>
+      </div> 
+      </div>      
+    </div>
+  </section>
+
+
+  <section>
+    <div className=' flex justify-between flex-wrap gap-5 py-8'>
+    <div className='flex items-center gap-4'>
+      <h3 className='text-6xl font-bold text-rose-500'>1.5</h3>
+      <p className='text-gray-400'>Milorn Liters</p><span className='text-2xl text-black font-semibold'>Produced Over</span>
+
+    </div>
+    <div className='flex items-center gap-4'>
+    <h3 className='text-6xl font-semibold text-rose-500'>29</h3>
+    <p className='text-gray-400'>Milorn Liters</p><span className='text-2xl text-black font-semibold'>Scoops Sold</span>
     </div>
 
+    <div className='flex items-center gap-4'>
+    <h3 className='text-6xl font-semibold text-rose-500'>20</h3>
+    <p className='text-gray-400'>Years</p ><span className='text-2xl text-black font-semibold'>Our Experience</span>
+    </div>
+
+    </div>
+    
+  </section>
+
+  <section className='bg-orange-100 py-4' id='testimonials'>
+    <h3 className='section-header'>Happy Clients Say</h3>
+    <Swiper className='w-full mt-[100px] mb-[100px]'
+    slidesPerView={3}
+    spaceBetween={20}
+    autoplay={
+      {
+        delay:1500
+      }
+    }
+    loop={true}
+    breakpoints={{
+      0:{
+        slidesPerView:1.5
+      },
+      768:{
+        slidesPerView:2.5
+      },
+      1024:{
+        slidesPerView:3
+      }
+    }}
+    modules={[Autoplay]}
+
+    >
+      <SwiperSlide>
+        <div className='w-full card group p-8 bg-white'>
+          <div className='flex items-start gap-3'>
+          <img src={Avtar01} alt="avtar" className='w-[50px] rounded-full mb-4' />
+
+          <div className='flex flex-col'>
+            <div className=''>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-line'></i>
+            </div>
+            <span className='text-sm'>Sandra Farmar</span>
+          </div>
+
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptatem.</p>
+        </div>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <div className='w-full card group p-8 bg-white'>
+          <div className='flex items-start gap-3'>
+          <img src={Avtar02} alt="avtar" className='w-[50px] rounded-full mb-4' />
+
+          <div className='flex flex-col'>
+            <div className=''>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-line'></i>
+            </div>
+            <span className='text-sm'>Leonardo</span>
+          </div>
+
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptatem.</p>
+        </div>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <div className='w-full card group p-8 bg-white'>
+          <div className='flex items-start gap-3'>
+          <img src={Avtar03} alt="avtar" className='w-[50px] rounded-full mb-4' />
+
+          <div className='flex flex-col'>
+            <div className=''>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-line'></i>
+            </div>
+            <span className='text-sm'>Emelee</span>
+          </div>
+
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptatem.</p>
+        </div>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <div className='w-full card group p-8 bg-white'>
+          <div className='flex items-start gap-3'>
+          <img src={Avtar04} alt="avtar" className='w-[50px] rounded-full mb-4' />
+
+          <div className='flex flex-col'>
+            <div className=''>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-fill'></i>
+              <i className='ri-star-line'></i>
+            </div>
+            <span className='text-sm'>Victor</span>
+          </div>
+
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptatem.</p>
+        </div>
+      </SwiperSlide>
+    </Swiper>
+
+  </section>
+
+  <section>
+    <div className=''>
+      <div className=''>
+        <span>Ice Parlour</span>
+      
+      <div className=''>
+        <span>Follow Us</span>   
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div className=''>
+          
+        <i className='ri-facebook-line'></i>
+        <i className='ri-twitter-line'></i>
+        <i className='ri-youtube-line'></i>
+        <i className='ri-instagram-line'></i>
+
+        </div>
+      </div>
+      </div>
+
+      <div className=''></div>
+      <div className=''></div>
+    </div>
+    <p>@2025 Iceparlour . All Rights Reserved</p>
   </section>
 
     </>
