@@ -626,29 +626,51 @@ const Index = () => {
 
   </section>
 
-  <section>
-    <div className=''>
-      <div className=''>
-        <span>Ice Parlour</span>
+  <section className='bg-black text-white flex flex-col gap-5'>
+    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full gap-5 pb-9'>
+      <div className='flex flex-col gap-2'>
+        <span className='text-2xl text-red-600 font-bold cursor-pointer'>Ice Parlour</span>
       
-      <div className=''>
+      <div className='felx flex-col mt-4'>
         <span>Follow Us</span>   
-        <p>Lorem ipsum dolor sit amet.</p>
-        <div className=''>
+        <p className='text-gray-500 hover:text-white'>Lorem ipsum dolor sit amet.</p>
+        <div className='flex-gap-4 mt-4'>
           
-        <i className='ri-facebook-line'></i>
-        <i className='ri-twitter-line'></i>
-        <i className='ri-youtube-line'></i>
-        <i className='ri-instagram-line'></i>
+        <i className='ri-facebook-line text-gray-500 hover:text-white cursor-pointer text-2xl'></i>
+        <i className='ri-twitter-line text-gray-500 hover:text-white cursor-pointer text-2xl'></i>
+        <i className='ri-youtube-line text-gray-500 hover:text-white cursor-pointer text-2xl'></i>
+        <i className='ri-instagram-line text-gray-500 hover:text-white cursor-pointer text-2xl'></i>
 
         </div>
       </div>
       </div>
 
-      <div className=''></div>
-      <div className=''></div>
+      <div className='flex flex-col gap-2'>
+        <h2 className='text-2xl mb-5'>Usefull Links</h2>
+        <p className='text-gray-500 hover:text-white cursor-pointer'>About</p>
+        <p className='text-gray-500 hover:text-white cursor-pointer'>Service</p>
+        <p className='text-gray-500 hover:text-white cursor-pointer'>Storage</p>
+        <p className='text-gray-500 hover:text-white cursor-pointer'>Blog</p>
+        <p className='text-gray-500 hover:text-white cursor-pointer'>Shop</p>
+        <p className='text-gray-500 hover:text-white cursor-pointer'>About</p>
+      </div>
+
+      <div className='flex flex-col gap-2'>
+        <h2 className='text-2xl'>Find Store</h2>
+        <p className='text-gray-500 hover:text-white'>5606 e Speragge , Ave , Spokane</p>
+        <p className='text-gray-500 hover:text-white'>Valliay , WA 998877 , USA</p>
+        <h2 className='text-2xl'>Call Now</h2>
+        <p className='text-gray-500 hover:text-white'>+12376868 476 567 354</p>
+        <p className='text-gray-500 hover:text-white'>Support@IceParlour.com</p>
+      </div>
+
+      <div className='flex flex-col gap-2'>
+        <h2 className='text-2xl'>Opening Hours</h2>
+        <p className='text-gray-500 hover:text-white'>Monday - Sunday</p>
+        <p className='text-gray-500 hover:text-white'>9:00 AM - 10:00 PM</p>
+      </div>
     </div>
-    <p>@2025 Iceparlour . All Rights Reserved</p>
+    <p className='text-center pt-8 border-t-1 border-gray-500'>@2025 Iceparlour . All Rights Reserved</p>
   </section>
 
     </>
